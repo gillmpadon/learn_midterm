@@ -1,0 +1,86 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.navbar{
+    display: flex;
+    height: 2em;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    margin: auto;
+    margin-right: 2em;
+    margin-top: -.5em;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 2px black;
+    padding: .5em;
+    font-size: 1.5em;
+}
+
+.navbar ul li a:hover, .active{
+    border-bottom: 2px solid white;
+
+}
+
+#logo{
+    display: flex;
+    height: 100%;
+    width: 20%;
+}
+
+#logo img{
+    margin: auto;
+    height: 100%;
+}
+#logo h3{
+    color: white;
+    margin: auto;
+    margin-left: -1.5em;
+   
+}
+
+.images{
+    display: flex;
+    
+}
+
+.images img{
+    margin-left: 1em;
+}
+
+
+#search{
+    margin-right: 1.5em;
+}
+
+.container {
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 1em;
+    width: 90%;
+    height: 80%;
+    
+
+}
