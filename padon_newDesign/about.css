@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FEDC32;
+}
+
+
+.navbar{
+    position: fixed;
+    background-color: #FEDC32;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    width: 100%;
+}
+.logo{
+    padding: 1em;
+}
+.logo h1{
+    font-size: 1em;
+    letter-spacing: .5em;
+    margin-top: -1em;
+}
+.top{
+    display: flex;
+}
+.top img{
+    height: 2em;
+}
+.top h3{
+    margin-top: .3em;
+    margin-left: .5em;
+    letter-spacing: .2em;
+}
+.menu{
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    margin-left: 1em;
+    margin-top: 1.2em;
+}
+.nav img{
+    height: 2em;
+}
+.nav h3{
+    margin-top: .2em;
+    margin-left: .2em;
+}
+
+
+/* main content */
+.mainContent{
+    position: relative;
+    top: 5em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.sideContent, .rightContent{
+    padding: 1em;
+    width: 30%;
+}
+
+.sideContent img{
+    border-radius: .5em;
+    height: 15em;
+    width: 25em;
+}
+
+.sideContent img{
+    margin-top: 2em;
+}
+
+.rightContent h1{
+    letter-spacing: .2em;
+    text-align: center;
+
+}
+.rightContent p{
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.map{
+    margin: auto;
+    margin-top: 5em;
+    text-align: center;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+.socialmedia{
+    width: 20%;
+}
+.entry{
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+.entry img{
+    height: 2em;
+}
+.entry p{
+    font-size: 1.2em;
+    margin-left: .5em;
+    margin-top: .2em;
+}
+
+.information{
+    display: flex;
+}
+.information img{
+    height: 2em;
+}
+.information p{
+    margin-top: .5em;
+    margin-left: .5em;
+}
+
+
+/* universal selector */
+#active{
+    height: 2.2em;
+    border-bottom: 3px solid black;
+}
+p{
+    text-indent: 2em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+html {scroll-behavior: smooth;}
