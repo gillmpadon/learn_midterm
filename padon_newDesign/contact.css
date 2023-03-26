@@ -5,54 +5,10 @@ body{
 }
 
 
-.navbar{
-    position: fixed;
-    background-color: #FEDC32;
-    display: flex;
-    justify-content: center;
-    z-index: 1;
-    width: 100%;
-    margin-top: -1.2em;
-}
-.logo{
-    padding: 1em;
-}
-.logo h1{
-    font-size: 1em;
-    letter-spacing: .5em;
-    margin-top: -1em;
-}
-.top{
-    display: flex;
-}
-.top img{
-    height: 2em;
-}
-.top h3{
-    margin-top: .3em;
-    margin-left: .5em;
-    letter-spacing: .2em;
-}
-.menu{
-    display: flex;
-}
-
-.nav{
-    display: flex;
-    margin-left: 1em;
-    margin-top: 1.2em;
-}
-.nav img{
-    height: 2em;
-}
-.nav h3{
-    margin-top: .2em;
-    margin-left: .2em;
-}
 
 .content{
     position: relative;
-    top: 5em;
+    top: 1em;
     margin:auto;
     text-align: center;
 }
@@ -91,7 +47,7 @@ form input:focus{
 .butt{
     margin: auto;
     text-align: center;
-    margin-top: 3em
+    margin-top: 0em
 }
 .butt button{
     height: 3em;
@@ -161,40 +117,6 @@ form input:focus{
 
 
 
-/* footer */
-.footer{
-    display: flex;
-    justify-content: center;
-    margin-top: 5em;
-    
-}
-.socialmedia{
-    width: 20%;
-}
-.entry{
-    display: flex;
-    margin-top: 1em;
-    margin-bottom: .5em;
-}
-.entry img{
-    height: 2em;
-}
-.entry p{
-    font-size: 1.2em;
-    margin-left: .5em;
-    margin-top: .2em;
-}
-
-.information{
-    display: flex;
-}
-.information img{
-    height: 2em;
-}
-.information p{
-    margin-top: .5em;
-    margin-left: .5em;
-}
 
 
 /* universal selector */

@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 0em;
+}
+.socialmedia{
+    width: 14%;
+
+}
+.entry{
+    display: flex;
+}
+.entry img{
+    height: 2em;
+}
+.entry p{
+    font-size: 1.2em;
+    margin-left: -1.5em;
+    margin-top: .2em;
+}
+
+.information{
+    display: flex;
+}
+.information img{
+    height: 2em;
+}
+.information p{
+    margin-top: .5em;
+    margin-left: -1.5em;
+}
+
+.contact{
+    margin-top: 0em;
+}
+
+
+/* universal selector */
+#active{
+    height: 2.2em;
+    border-bottom: 3px solid black;
+}
+
+p{
+    text-indent: 2em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+html {scroll-behavior: smooth;}
